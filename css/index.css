@@ -1,0 +1,176 @@
+::selection
+{
+	background-color:  rgba(242, 84, 84, 0.85);
+	color: #fff;
+}
+
+
+
+
+
+.hr
+{
+	width: 40px;
+	border-color: #000;
+	transition: all 1s;
+}
+.about-head:hover .hr
+{
+	width: 80px;
+}
+.service-head:hover .hr
+{
+	width: 80px;
+	border-color: #f25454;
+}
+.mission-head:hover .hr
+{
+	width: 80px;
+	border-color: #f25454;
+}
+.pro-head:hover .hr
+{
+	width: 80px;
+	border-color: #f25454;
+}.team-head:hover .hr
+{
+	width: 80px;
+	border-color: #f25454;
+}
+.mission
+{
+	background-image: url(../img/mission.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px;
+	color: #fff;
+	fill:#fff; 
+}
+.mission-icons svg
+{
+	width: 60px;
+	height:60px;
+}
+.mission-icons:hover svg
+{
+	fill:#f25454;
+}
+.mission-icons:hover p
+{
+	color:#f25454; 
+}
+
+.team-img
+{
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+}
+.team-img:hover img
+{
+	transform: scale(1.1,1.1);
+}
+.team-img img 
+{
+	transition: all 1s;
+}
+.team-social
+{
+   background-color: rgba(242, 84, 84, 0.85);
+   position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	transition: all 1s;
+}
+.team-social-inner
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+.team-img:hover .team-social
+{
+	display: block;
+}
+.team .col-md-3:hover .team-details h3
+{
+	color:  rgba(242, 84, 84, 0.85);
+}
+.team-details h3
+{
+	transition: all 0.3s;
+}
+/*start section projects*/
+.button-group button
+{
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+.grid-item
+{
+	position: relative;
+	cursor: pointer;
+}
+.grid-item .overlay
+{
+	position: absolute;
+	left: 5;
+	top: 5;
+	bottom: 5;
+	right: 5;
+
+	text-align: center;
+	color: #fff;
+	display: none;
+	transition:all 0.4s;
+}
+.grid-overlay-inner
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	
+}
+.grid-item:hover .overlay
+{
+	display: block;
+	background-color:  rgba(242, 84, 84, 0.85);
+}
+.grid-img
+{
+	overflow: hidden;
+}
+.grid-img img
+{
+	transition: all 1s;
+}
+.grid-item:hover .grid-img img
+{
+	transform: scale(1.1,1.1);
+}
+
+/*start section service*/
+.service-icon svg
+{
+	fill:#f25454;
+	width: 32px;
+	height: 32px;
+}
+.service-icon i
+{
+	color: #f25454;
+	font-size: 32px;
+}
+.services .col-md-4:hover .service-text h3
+{
+	color: #f25454;
+}
+.service-text h3
+{
+	transition: all .3s;
+}
